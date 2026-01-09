@@ -7,6 +7,7 @@ A hotplate system which makes temperature sensing with RTD and heater power swit
 -16x2 LCD Module
 -Rotery Enkoder
 -RTD driving circuit(https://electronics.stackexchange.com/questions/449575/working-of-ina826-instrumentation-amplifier-for-pt100-rtd)
+-STM32F103C8T6 Bluepill board 
 
 
   HOW TO USE:
@@ -19,6 +20,10 @@ Heating:
 To start heating operation, press short to the rotary enkoder.
 For adjusting temperature, press long to the rotary enkoder.
 
+Programming:
+SWCLK ---  Green cable
+SWDIO ---  Yellow cable
+GND   ---  Blue cable
+3V3   ---  Orange cable
 
-
-
+(For native users, after me who will use the system which i used )
