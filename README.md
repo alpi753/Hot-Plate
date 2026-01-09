@@ -6,6 +6,19 @@ A hotplate system which makes temperature sensing with RTD and heater power swit
 
 -16x2 LCD Module
 -Rotery Enkoder
--RTD driving circuit
+-RTD driving circuit(https://electronics.stackexchange.com/questions/449575/working-of-ina826-instrumentation-amplifier-for-pt100-rtd)
+
+
+  HOW TO USE:
+Power:
+Use usb cable to power up the microcontroller with 5V,
+Plug in the heater and turn on the on/off swicth,
+You should adjust the heat setting at full extent (Speed setting is disabled in my case, i deattached its cable)
+
+Heating:
+To start heating operation, press short to the rotary enkoder.
+For adjusting temperature, press long to the rotary enkoder.
+
+
 
 
