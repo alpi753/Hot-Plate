@@ -11,17 +11,18 @@ A hotplate system which makes temperature sensing with RTD and heater power swit
 - STM32F103C8T6 Bluepill board 
 ***
 
-###HOW TO USE:  
-####Power:  
+### HOW TO USE:
+
+#### Power:  
 Use usb cable to power up the microcontroller with 5V,  
 Plug in the heater and turn on the on/off swicth,  
 You should adjust the heat setting at full extent (Speed setting is disabled in my case, i deattached its cable)  
 
-####Heating:  
+#### Heating:  
 To start heating operation, press short to the rotary enkoder.  
 For adjusting temperature, press long to the rotary enkoder.  
 
-###Programming:  
+### Programming:  
 SWCLK ---  Green cable  
 SWDIO ---  Yellow cable  
 GND   ---  Blue cable  
